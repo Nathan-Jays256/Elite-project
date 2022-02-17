@@ -1,0 +1,14 @@
+
+
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+#  Rule2 Removing files extension form the site
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L]
+
+
+RewriteRule ^edit/([a-zA-Z0-9]+)/([a-zA-Z_-]*)/?$ edit.php?id=$1&rId=$2 [L,QSA,NC]
+# RewriteRule ^property-category/([a-zA-Z_-]*)/?$ category-details.php?name=$1 [L,QSA,NC]
+</IfModule>

@@ -1,0 +1,23 @@
+h5{
+    color: rgb(78, 112, 15);
+  }
+  .container form{
+    /* width:100%; */
+    margin: 30px auto;
+  }
+  i{
+    cursor:pointer;
+  }
+  .hidden_form{
+      display: none;
+  }
+  .visible{
+      display:block;
+      
+  }
+.bg-primary {
+    background-color: #4e7443;
+}
+.color-white {
+    color: white !important;
+}

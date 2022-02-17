@@ -21,6 +21,10 @@ h5{
 .color-white {
     color: white !important;
 }
-input.form-control:hover {
-  background-color: #ff9742;
+.btn{
+  background-color:#4e7443 !important;
+  color: white !important;
+}
+.btn:hover {
+  background-color: #ff9742 !important;
 }

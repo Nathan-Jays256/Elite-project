@@ -323,7 +323,7 @@ include "includes/formsubmission.inc.php";
                                 </div>
                         </div>
                         <div class="col-lg-6 col-md-10 col-sm-10 m-auto">
-                            <input class="form-control" type="submit" class="s_btn" name="save_btn" value="Save Prayer request" />
+                            <input class="form-control btn" type="submit" class="s_btn" name="save_btn" value="Save Prayer request" />
                         </div>
                     </div>
                 </form>

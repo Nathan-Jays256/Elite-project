@@ -114,13 +114,13 @@ include "includes/formsubmission.inc.php";
                                                 </div>
                                                 <div class="form-group col-lg-6 col-md-12 col-sm-12 py-2">
                                                     <label for="martial_status">Registration No.</label>
-                                                    <input type="text" name="regNo" placeholder="District" id="input-email" class="form-control" required>
+                                                    <input type="text" name="regNo" placeholder="Registration No." id="input-email" class="form-control" required>
                                                     
                                                 </div>
                                                                                            
                                                 <div class="form-group col-lg-6 col-md-12 col-sm-12 py-2">
                                                     <label for="martial_status">Registration Date</label>
-                                                    <input type="date" name="reg_date" placeholder="District" id="input-email" class="form-control" required>
+                                                    <input type="date" name="reg_date" placeholder="Registration Date" id="input-email" class="form-control" required>
                                                     
                                                 </div>
                                                                                            
@@ -323,7 +323,7 @@ include "includes/formsubmission.inc.php";
                                 </div>
                         </div>
                         <div class="col-lg-6 col-md-10 col-sm-10 m-auto">
-                            <input type="submit" class="s_btn" name="save_btn" value="Save Prayer request" />
+                            <input class="form-control" type="submit" class="s_btn" name="save_btn" value="Save Prayer request" />
                         </div>
                     </div>
                 </form>
